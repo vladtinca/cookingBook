@@ -1,0 +1,81 @@
+/* dark mode */
+.recipe.dark {
+    background: var(--text-mid-tone);
+    color: var(--text-light-tone);
+}
+
+.recipe.dark h2,
+.recipe.dark li,
+.recipe.dark p {
+    color: var(--text-light-tone);
+}
+
+.recipe.dark .delete-action {
+    filter: invert(100%);
+}
+
+
+
+.recipe .delete-action {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 40px;
+    cursor: pointer;
+    filter: invert(40%);
+}
+
+.recipe .delete-action:hover {
+    transform: scale(1.2);
+}
+
+
+
+.recipe {
+    position: relative;
+    max-width: 1100px;
+    margin: 40px auto;
+    text-align: center;
+    background: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+
+}
+
+.recipe div {
+    padding: 0 50px 0;
+}
+
+.recipe ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.recipe p,
+.recipe h2 {
+    margin-bottom: 20px;
+    color: var(--text-mid-tone);
+}
+
+.recipe li {
+    /* list-style-type: none; */
+    margin-right: 10px;
+    color: #777;
+}
+
+/* .recipe li::after {
+    content: ",";
+} */
+
+/* .recipe li:last-child::after {
+    content: ".";
+} */
+
+.method {
+    text-align: left;
+    line-height: 1.5em;
+}

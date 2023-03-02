@@ -1,0 +1,8 @@
+.search-page .page-title {
+    color: var(--text-mid-tone);
+}
+
+.search-page.dark,
+.search-page.dark .page-title {
+    color: var(--text-light-tone);
+}

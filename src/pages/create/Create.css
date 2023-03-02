@@ -1,0 +1,59 @@
+/* dark mode */
+.create.dark,
+.create.dark .page-title {
+    color: var(--text-light-tone);
+}
+
+.create .page-title {
+    color: var(--text-mid-tone);
+    margin: 0;
+}
+
+.create {
+    color: #555;
+    max-width: 480px;
+    margin: 10px auto;
+    padding: 15px;
+}
+
+.create label span {
+    display: block;
+    margin: 25px 0 10px;
+}
+
+.create p {
+    margin-top: 15px;
+    font-size: 0.8em;
+}
+
+.create .time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create .time input {
+    width: 100px;
+    margin-left: 10px;
+}
+
+.create .btn {
+    display: block;
+    background-color: #52a53d;
+    color: #fff;
+    width: 60px;
+    padding: 8px;
+    font-size: 0.8em;
+    margin: 0 0 0 10px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s ease 0s;
+}
+
+.create .ingredients {
+    display: flex;
+
+}

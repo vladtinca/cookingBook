@@ -1,0 +1,60 @@
+.theme-selector {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1300px;
+    margin: 0px auto
+}
+
+
+
+@media (hover: hover) {
+    .theme-selector .hover {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative;
+        padding: 10px;
+        top: -25px;
+        transition: all 0.3s ease 0s;
+
+    }
+
+    .theme-selector .hover:hover {
+        top: 0px;
+    }
+}
+
+@media (hover: none) {
+    .theme-selector .hover {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 7px 3px 0px 0px;
+
+    }
+}
+
+
+
+.theme-buttons div {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.theme-buttons div:last-child {
+    margin-right: 10px;
+}
+
+.theme-selector .modes {
+    display: inline-block;
+}
+
+.theme-selector .modes img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}

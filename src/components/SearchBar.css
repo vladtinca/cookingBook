@@ -1,0 +1,11 @@
+.search-bar input {
+    margin-left: 10px;
+    border-radius: 10px;
+    color: var(--text-mid-tone);
+    font-size: large;
+}
+
+.search-bar input::-webkit-input-placeholder {
+    color: var(--text-mid-tone);
+    opacity: 0.5;
+}
