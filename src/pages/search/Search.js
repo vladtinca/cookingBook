@@ -46,7 +46,11 @@ export default function Search() {
     //. ?q=something
     return (
         <div className={`search-page ${mode}`}>
+<<<<<<< HEAD
             <h2 className="page-title">Recipes something "{search}" to find</h2>
+=======
+            <h2 className="page-stitles">Recipes including "{search}"</h2>
+>>>>>>> 916548e7de3db34150551550c974fd2cd5b96aeb
             {recipes && <RecipeList recipes={recipes} />}
         </div>
     )
