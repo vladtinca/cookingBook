@@ -19,6 +19,7 @@ function App() {
         <Navbar></Navbar>
         <Navbar></Navbar>
         <ThemeSelector></ThemeSelector>
+        <ThemeSelector></ThemeSelector>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/create' element={<Create />} />
